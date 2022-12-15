@@ -1,0 +1,35 @@
+{
+  "name": "db1-tech-guide",
+  "version": "1.0.0",
+  "description": "DB1 Tech Guide.",
+  "scripts": {
+    "docusaurus": "docusaurus",
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "deploy": "docusaurus deploy",
+    "serve": "docusaurus serve",
+    "clear": "docusaurus clear"
+  },
+  "dependencies": {
+    "@docusaurus/core": "^2.0.0-beta.18",
+    "@docusaurus/preset-classic": "^2.0.0-beta.18",
+    "@docusaurus/theme-search-algolia": "^2.0.0-beta.18",
+    "@eightshift/frontend-libs": "^6.0.2",
+    "docusaurus-plugin-sass": "^0.2.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^5.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
