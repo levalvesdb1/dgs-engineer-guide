@@ -10,6 +10,9 @@ module.exports = {
 			'plugin',
 			'additional-libraries'
 		],
+		'Engineering Guide': [
+			'technology-radar'
+		],
 		'Basics': [
 			'basics/basics-intro',
 			'basics/wp-cli',
