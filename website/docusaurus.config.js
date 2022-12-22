@@ -1,12 +1,12 @@
 module.exports = {
   title: 'DB1 Techguide',
   tagline:
-    'All the tools you need to start building a modern WordPress project, using all the latest front end development tools.',
-  url: 'https://eightshift.com',
+    'Um guia para os engenheiros DGS utilizarem no dia a dia. Ferramentas, documentações, dicas e outras coisas bacanudas que estamos preparando para vocês.',
+  url: 'https://engineering.db1.com.br',
   baseUrl: '/',
   favicon: 'img/favicon.png',
   organizationName: 'infinum',
-  projectName: 'eightshift-docs',
+  projectName: 'Engineering Techguide',
   staticDirectories: ['static'],
   scripts: [
     {
@@ -19,7 +19,7 @@ module.exports = {
     navbar: {
       logo: {
         alt: 'DB1 Techguide Logo',
-        src: 'img/eightshift-dev-kit-logo.svg',
+        src: 'img/dgs-engineering.png',
       },
       items: [
         {
