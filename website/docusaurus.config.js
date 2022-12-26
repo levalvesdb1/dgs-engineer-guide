@@ -23,9 +23,9 @@ module.exports = {
       },
       items: [
         {
-          to: '/get-started',
+          to: '/developer-guide',
           activeBasePath: 'pages',
-          label: 'Get Started',
+          label: 'Developer Guide',
           position: 'right',
         },
         {
@@ -34,28 +34,17 @@ module.exports = {
           label: 'Docs',
           position: 'right',
         },
+
         {
-          to: '/blog',
-          activeBasePath: 'blog',
-          label: 'Blog',
+          to: '/tools',
+          activeBasePath: 'tools',
+          label: 'Ferramentas',
           position: 'right',
         },
         {
-          to: '/storybook/',
-          activeBasePath: 'storybook',
-          label: 'Storybook',
-          position: 'right',
-        },
-        {
-          to: '/sass',
-          activeBasePath: 'sass',
-          label: 'Sass',
-          position: 'right',
-        },
-        {
-          to: '/showcase',
-          activeBasePath: 'showcase',
-          label: 'Showcase',
+          to: '/tech-map',
+          activeBasePath: 'tech-map',
+          label: 'Techmap',
           position: 'right',
         },
       ],
@@ -64,11 +53,7 @@ module.exports = {
       theme: require('prism-react-renderer/themes/dracula'),
       additionalLanguages: ['php'],
     },
-    algolia: {
-      appId: 'CWB1S6U3C4',
-      apiKey: 'cbae3fc769aee256328548eff1e91c1c',
-      indexName: 'infinum_eightshift',
-    },
+
     colorMode: {
       disableSwitch: true,
     },
@@ -80,10 +65,6 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-        },
-        gtag: {
-          trackingID: 'GTM-P5GG5DH',
-          anonymizeIP: true,
         },
         theme: {
           customCss: require.resolve('./src/scss/application.scss'),
