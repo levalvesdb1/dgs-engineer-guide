@@ -130,7 +130,7 @@ This class is used to add filters used in escaping unsafe tags in the `wp_kses_p
 
 ### .storybook
 
-This folder contains all of the files necessary to run the storybook in your project. Read more about it on [this link](https://storybook.js.org/).
+This folder contains all of the files necessary to run the storybook in your project. Read more about it on [this link](https://.js.org/).
 
 ### .gitignore
 

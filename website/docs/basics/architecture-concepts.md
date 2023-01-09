@@ -44,7 +44,7 @@ Blocks and Components have the same structure, which makes extracting components
 
 Components can be _composed_ into a block. In other words, blocks can consist out of zero or more components. Component composition is handled in the block manifest, allows you to avoid using InnerBlocks to include functionality shared with other blocks, and serializes component attributes to the block using prefixed attributes for each component instance depending on your manifest definitions.
 
-To learn more about the differences between blocks and components, read [Igor's blog post on Components and blocks](/blog/components-and-blocks). To learn how to use blocks and components to build your projects, read the [Blocks chapter](blocks).
+To learn more about the differences between blocks and components, read [Igor's blog post on Components and blocks](/). To learn how to use blocks and components to build your projects, read the [Blocks chapter](blocks).
 
 ## The Manifest
 
@@ -195,7 +195,7 @@ This namespace is used to add filters used when escaping unsafe tags using `wp_k
 
 #### .storybook
 
-This folder contains all of the files necessary to run the storybook in your project. Read more [about the Storybook project](https://storybook.js.org/).
+This folder contains all of the files necessary to run the storybook in your project. Read more [about the Storybook project](https://.js.org/).
 
 #### .gitignore
 

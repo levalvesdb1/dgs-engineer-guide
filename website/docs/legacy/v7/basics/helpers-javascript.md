@@ -171,7 +171,7 @@ These are all helpers generally only in specific plugins.
 This helper will search all blocks and components manifests and find attributes that have "seo": "true" key.
 This key will be added in to the content and proceed by the YoastSeo Analysis plugin.
 
-# [Storybook helpers](https://github.com/infinum/eightshift-frontend-libs/tree/6.0.0/scripts/storybook)
+# [Storybook helpers](https://github.com/infinum/eightshift-frontend-libs/tree/6.0.0/scripts/)
 
 These are all helpers generally only in Storybook.
 

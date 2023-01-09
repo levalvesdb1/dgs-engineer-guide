@@ -34,7 +34,7 @@ For all blocks, you don't need to write anything because all blocks stories look
 
 ```jsx
 import React from 'react';
-import { Gutenberg, blockDetails } from '@eightshift/frontend-libs/scripts/storybook';
+import { Gutenberg, blockDetails } from '@eightshift/frontend-libs/scripts/';
 import manifest from './../manifest.json';
 import globalManifest from './../../../manifest.json';
 import readme from './readme.mdx';

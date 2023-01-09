@@ -33,7 +33,7 @@ export default function Intro() {
         <Button
           componentClass={component}
           label={'Começar'}
-          href={useBaseUrl('/get-started')}
+          href={useBaseUrl('/')}
         />
       </Container>
     </div>
