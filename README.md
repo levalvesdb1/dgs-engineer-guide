@@ -1,6 +1,23 @@
-To run docs locally:
+Para rodar o projeto
 
-1. Clone this repo
-2. Navigate to `website` folder inside the repo
-3. Run `npm install`
-4. Run `npm start`
+## Desenvolvimento
+
+Para criar a imagem
+
+```
+docker run --init -p 3000:3000 dgs-techguide:dev
+```
+
+Rodar a imagem em desenvolvimento
+
+docker run -p 3000:3000 dgs-techguide:dev
+
+## Produção
+
+```
+docker build -t dgs-techguide:latest .
+```
+
+Rodar a imagem em produção
+
+docker run --rm -p 3000:80 dgs-techguide:latest
