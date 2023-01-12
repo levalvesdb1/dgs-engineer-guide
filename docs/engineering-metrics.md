@@ -3,24 +3,8 @@ id: engineering-metrics
 title: Metrics
 ---
 
-Let's create a new plugin!
+A software metric is a measure of software characteristics that are quantifiable or countable. Software metrics are important for many reasons, including measuring software **performance, security, maintainability, quality**, etc...
 
-Navigate to your WordPress plugins folder and run the following command:
+DB1 is very **metrics oriented** in its business so the engineering team has created a **complete guide** to access, understand and apply engineering metrics on your project.
 
-```bash
-npx create-wp-project plugin
-```
-
-The script will prompt you for a plugin name and local development URL (used for BrowserSync). After that, your new plugin will be installed:
-
-![](/img/setup.gif)
-
-After the script is finished, please follow the instructions provided by the setup script.
-
-All additional steps after the initial setup are done using WP_CLI commands, so please make sure that you have WP-CLI set and ready to use.
-
-## What is next?
-
-Now that we have the plugin set on your local environment, let's do something with it.
-
-Please make sure you read the [Basics chapter](basics/basics-intro) to better understand how the project is set and what is included to make your developing experience as smooth as possible.
+You can check the *engineering performance guide* [here](https://github.com/db1group/engineering-performance-guide).
