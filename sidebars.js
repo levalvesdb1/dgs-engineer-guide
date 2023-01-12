@@ -11,6 +11,20 @@ module.exports = {
 			'additional-libraries'
 		],
 		'Engineering Guide': [
+			{
+				'type': 'category',
+				'label': 'Best Practices',
+				'items': [
+					'best-practices/architecture-drawing',
+					'best-practices/ci-cd',
+					'best-practices/code-review',
+					'best-practices/code-style',
+					'best-practices/SOLID',
+					'best-practices/technical-agreements',
+					'best-practices/versioning-strategy'
+				]
+			},
+			'engineering-metrics',
 			'technology-radar'
 		],
 		'Basics': [
