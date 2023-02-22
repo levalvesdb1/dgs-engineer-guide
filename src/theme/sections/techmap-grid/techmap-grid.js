@@ -20,10 +20,9 @@ export default function TechmapGrid(props) {
 
   const component = 'techmap-grid';
 
-  const headingTitle = 'Mapa de tecnologia dos projetos';
-  const headingSubTitle = privateType
-    ? 'See all the awesome websites people from the Infinum WordPress team have built.'
-    : 'See the awesome websites people are building with Eightshift Boilerplate.';
+  const headingTitle = 'Technology Radar';
+  const headingSubTitle =
+    'It is an opinated guide from the company to the community about that technologies and techniques they have been working on.';
   const ctaTitle = privateType
     ? 'Want to contact us?'
     : 'Want to showcase your project?';
@@ -98,12 +97,16 @@ export default function TechmapGrid(props) {
   /* key={isClient ? 1 : 2} will trigger a rerender of the whole subtree and the images will be aligned with text */
   return (
     <div className={component} key={isClient ? 1 : 2}>
-      <Container componentClass={component}>
-        <Heading
-          componentClass={component}
-          title={headingTitle}
-          subtitle={headingSubTitle}
-        />
+      <iframe
+        style={{ width: '100vw', height: '100vh' }}
+        src="http://localhost:3001/"
+      ></iframe>
+      {/* <Heading
+        componentClass={component}
+        title={headingTitle}
+        subtitle={headingSubTitle}
+      /> */}
+      {/* <Container componentClass={component}>
         <div className={`${component}__content`}>{items}</div>
       </Container>
       <Container
@@ -116,7 +119,7 @@ export default function TechmapGrid(props) {
           title={ctaTitle}
           subtitle={ctaSubTitle}
         />
-      </Container>
+      </Container> */}
     </div>
   );
 }

@@ -23,28 +23,15 @@ module.exports = {
       },
       items: [
         {
-          to: '/developer-guide',
+          to: 'docs/engineering-metrics',
           activeBasePath: 'pages',
           label: 'Developer Guide',
           position: 'right',
         },
         {
-          to: 'docs/welcome',
-          activeBasePath: 'welcome',
-          label: 'Docs',
-          position: 'right',
-        },
-
-        {
-          to: '/tools',
-          activeBasePath: 'tools',
-          label: 'Ferramentas',
-          position: 'right',
-        },
-        {
-          to: '/tech-map',
-          activeBasePath: 'tech-map',
-          label: 'Techmap',
+          to: 'https://techradar.db1.com.br',
+          activeBasePath: 'technology-radar',
+          label: 'Technology Radar',
           position: 'right',
         },
       ],

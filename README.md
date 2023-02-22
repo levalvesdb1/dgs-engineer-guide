@@ -5,19 +5,19 @@ Para rodar o projeto
 Para criar a imagem
 
 ```
-docker run --init -p 3000:3000 dgs-techguide:dev
+docker build -t dgs-engineer-guide:latest .
+```
+
+```
+docker run --init -p 5173:5173 dgs-engineer-guide:dev
 ```
 
 Rodar a imagem em desenvolvimento
 
-docker run -p 3000:3000 dgs-techguide:dev
+docker run -p 5173:5173 dgs-engineer-guide:dev
 
 ## Produção
 
-```
-docker build -t dgs-techguide:latest .
-```
-
 Rodar a imagem em produção
 
-docker run --rm -p 3000:80 dgs-techguide:latest
+docker run --rm -p 5173:5173 dgs-engineer-guide:latest

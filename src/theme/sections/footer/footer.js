@@ -10,23 +10,23 @@ export default function Footer() {
   const itemsData = [
     {
       icon: useBaseUrl('img/ic-frontend-libs.svg'),
-      label: 'Dicas frontend',
-      link: 'https://github.com/infinum/eightshift-frontend-libs',
+      label: 'Dicas de arquitetura',
+      link: `/docs/best-practices/architecture-drawing`,
     },
     {
       icon: useBaseUrl('img/ic-libs.svg'),
-      label: 'Mapa de tecnologia',
-      link: 'https://github.com/infinum/eightshift-libs',
+      label: 'SOLID',
+      link: `/docs/best-practices/SOLID`,
     },
     {
       icon: useBaseUrl('img/ic-frontend-libs.svg'),
       label: 'Technology Radar',
-      link: 'https://github.com/infinum/eightshift-frontend-libs',
+      link: `https://techradar.db1.com.br`,
     },
     {
       icon: useBaseUrl('img/ic-libs.svg'),
-      label: 'Ferramentas',
-      link: 'https://github.com/infinum/eightshift-libs',
+      label: 'Code Style',
+      link: `/docs/best-practices/code-style`,
     },
   ];
 
