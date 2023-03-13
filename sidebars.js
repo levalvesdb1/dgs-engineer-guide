@@ -1,5 +1,15 @@
 module.exports = {
   docs: {
+    // 'Tools Shelf': [
+    //   'tool-shelf',
+    //   //   'eightshift-libs',:
+    //   // 'eightshift-frontend-libs',
+    //   // 'requirements',
+    //   // 'versions',
+    //   // 'theme',
+    //   // 'plugin',
+    //   // 'additional-libraries'
+    // ],
     'Engineering Metrics': [
       'engineering-metrics',
       //   'eightshift-libs',:
@@ -25,6 +35,25 @@ module.exports = {
         ],
       },
       'technology-radar',
+    ],
+    'Tools Shelf': [
+      'tool-shelf/tool-shelf',
+      'tool-shelf/postman-test',
+      'tool-shelf/playwright-test',
+      'tool-shelf/cypress-test',
+      'tool-shelf/jmeter-test',
+      'tool-shelf/amazon-cognito',
+      'tool-shelf/key-cloack',
+      'tool-shelf/rabbit-mq',
+      'tool-shelf/kafka',
+      'tool-shelf/prometeus',
+      'tool-shelf/terraform',
+      'tool-shelf/kubernetes',
+      'tool-shelf/ansible',
+      'tool-shelf/sonar-qube',
+      'tool-shelf/nginx',
+      'tool-shelf/firebase',
+      'tool-shelf/one-signal',
     ],
     // 'Basics': [
     // 	'basics/basics-intro',
