@@ -38,22 +38,64 @@ module.exports = {
     ],
     'Tools Shelf': [
       'tool-shelf/tool-shelf',
-      'tool-shelf/postman-test',
-      'tool-shelf/playwright-test',
-      'tool-shelf/cypress-test',
-      'tool-shelf/jmeter-test',
-      'tool-shelf/amazon-cognito',
-      'tool-shelf/key-cloack',
-      'tool-shelf/rabbit-mq',
-      'tool-shelf/kafka',
-      'tool-shelf/prometeus',
-      'tool-shelf/terraform',
-      'tool-shelf/kubernetes',
-      'tool-shelf/ansible',
-      'tool-shelf/sonar-qube',
-      'tool-shelf/nginx',
-      'tool-shelf/firebase',
-      'tool-shelf/one-signal',
+      {
+        type: 'category',
+        label: 'Tests',
+        items: [
+          'tool-shelf/postman-test',
+          'tool-shelf/playwright-test',
+          'tool-shelf/cypress-test',
+          'tool-shelf/jmeter-test',
+        ],
+      },
+      {
+        type: 'category',
+        label: 'Authentication',
+        items: [
+          'tool-shelf/amazon-cognito',
+          'tool-shelf/key-cloack',
+        ],
+      },
+      {
+        type: 'category',
+        label: 'Message',
+        items: [
+          'tool-shelf/rabbit-mq',
+          'tool-shelf/kafka',
+        ],
+      },
+      {
+        type: 'category',
+        label: 'Infra and Devops',
+        items: [
+          'tool-shelf/prometeus',
+          'tool-shelf/terraform',
+          'tool-shelf/kubernetes',
+          'tool-shelf/ansible',
+        ],
+      },
+      {
+        type: 'category',
+        label: 'Code analysis',
+        items: [
+          'tool-shelf/sonar-qube',
+        ],
+      },
+      {
+        type: 'category',
+        label: 'Server and Proxy',
+        items: [
+          'tool-shelf/nginx',
+        ],
+      },
+      {
+        type: 'category',
+        label: 'Dev and Notification',
+        items: [
+          'tool-shelf/firebase',
+          'tool-shelf/one-signal',
+        ],
+      },
     ],
     // 'Basics': [
     // 	'basics/basics-intro',
