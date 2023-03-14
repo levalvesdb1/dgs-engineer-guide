@@ -1,7 +1,7 @@
 module.exports = {
   title: 'DB1 Techguide',
   tagline:
-    'Um guia para os engenheiros DGS utilizarem no dia a dia. Ferramentas, documentações, dicas e outras coisas bacanudas que estamos preparando para vocês.',
+    'Um guia para os engenheiros DGS utilizarem no dia a dia. Ferramentas, documentações, dicas e outras coisas bacanudas que estamos preparando para vocês!!',
   url: 'https://engineering.db1.com.br',
   baseUrl: '/',
   favicon: 'img/favicon.png',
