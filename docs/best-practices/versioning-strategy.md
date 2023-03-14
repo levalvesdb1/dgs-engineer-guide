@@ -3,17 +3,30 @@ id: versioning-strategy
 title: Versioning Strategy
 ---
 
-The [Technology Radar](https://www.thoughtworks.com/radar/faq-and-more) concept was created by [Thoughtworks](https://www.thoughtworks.com/), and they regularly publish updates to [their own radar](https://www.thoughtworks.com/radar). It is an opinated guide from the company to the community about that technologies and techniques they have been working on.
+There are many ways to version our infrastructure and application. What we will encourage you in this post is to pick one. According to [flow canon](https://flowcanon.com/software/versioning-strategy/): "Using a software versioning strategy for your builds can reduce the cognitive load for everyone developing and using your software. Versioning Strategies allow you to identify each build artifact quickly and easily".
 
-The radar is an [open-source project](https://github.com/thoughtworks/build-your-own-radar) and DB1 will consolidate and share it's opinion through this project in 2023. Our technology radar can also serve as a reference and source of inspiration for other companies and teams.
+Among the many strategies we have to version something, we have:
 
-The guide will provide us 4 categories:
+- [Semantic Versioning](https://semver.org/)
+- [CalVer](https://calver.org/)
+- [Other Strategies](https://flowcanon.com/software/versioning-strategy/)
 
-- Techniques
-- Tools
-- Platforms
-- Languages and Frameworks
+We recommend using semantic versioning as the default strategy for enterprise applications, but any of the above are valid strategies and you should pick what works best for both the product and the team.
 
-We’ve released the first-draft of our technology radar and will update it on an ongoing basis.
+## Why semantic versioning?
 
-You can find our Technology Radar here.
+Semantic versioning is likely the most used versioning strategy in modern software industry and it has a very straitghforward way of describing your software version.
+
+The versioning is basically composed of 3 information: MAJOR.MINOR.PATCH
+
+1. MAJOR version when you make incompatible API changes
+2. MINOR version when you add functionality in a backwards compatible manner
+3. PATCH version when you make backwards compatible bug fixes
+
+Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.
+
+Credits:
+- [Flowcanon](https://flowcanon.com/software/versioning-strategy/)
+- [SemVer](https://semver.org/)
+- [CalVer](https://calver.org/)
+- [Luke Chen Post](https://nehckl0.medium.com/semver-and-calver-2-popular-software-versioning-schemes-96be80efe36)
