@@ -72,6 +72,9 @@ module.exports = {
           'tool-shelf/terraform',
           'tool-shelf/kubernetes',
           'tool-shelf/ansible',
+          'tool-shelf/microsoft_app_center',
+          'tool-shelf/bitrise',
+          'tool-shelf/fastlane'
         ],
       },
       {

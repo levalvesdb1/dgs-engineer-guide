@@ -20,6 +20,9 @@ Algumas das ferramentas são:
 - Nginx
 - Firebase
 - One signal
+- App Center
+- Bitrise
+- Fastlane
 
 
 Para testes de API, interface e de performance:
