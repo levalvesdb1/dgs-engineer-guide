@@ -3,17 +3,24 @@ id: code-style
 title: Code Style
 ---
 
-The [Technology Radar](https://www.thoughtworks.com/radar/faq-and-more) concept was created by [Thoughtworks](https://www.thoughtworks.com/), and they regularly publish updates to [their own radar](https://www.thoughtworks.com/radar). It is an opinated guide from the company to the community about that technologies and techniques they have been working on.
+A code standard is a consistent, yet flexible, set of “best practices” designed to improve quality and readability while making code changes and maintenance easier. It:
 
-The radar is an [open-source project](https://github.com/thoughtworks/build-your-own-radar) and DB1 will consolidate and share it's opinion through this project in 2023. Our technology radar can also serve as a reference and source of inspiration for other companies and teams.
+- encompasses all aspects of code construction
+- is designed to improve adaptation & maintenance
+- does not form an inflexible set of standards
+- is consistent
+- is not “one size fits all”
+- defines “best practices” for writing code
+- must adapt to changes
 
-The guide will provide us 4 categories:
+A code standard is a set of conventions (sometimes arbitrary) about how to write code in a project. It is much easier to understand a large codebase when all the code in it is in a consistent style.
 
-- Techniques
-- Tools
-- Platforms
-- Languages and Frameworks
+By ensuring a code style in your project you will get the following benefits: readability, program structure, programming practices, correctness, portability/nteroperability, reusability, performance and globalization/localization.
 
-We’ve released the first-draft of our technology radar and will update it on an ongoing basis.
+If you are not sure where or how to start, there are plenty of work in the community around standards for most common languages, check it out [here](https://codestyle.co) and [here](https://google.github.io/styleguide/) pick one and stick to it.
 
-You can find our Technology Radar here.
+Once you and your team is onboard with the practice, don't forget to enforce your code standard in the daily basis. You can configure your IDE to automatically check for non-standard code, install add-ons and extensions, plug-in external tools in your [CI/CD](ci-cd.md) process and even check for it in your [code review process](code-review.md).
+
+Credits
+- [CodeStyle](https://codestyle.co)
+- [Google Styleguide](https://google.github.io/styleguide/)

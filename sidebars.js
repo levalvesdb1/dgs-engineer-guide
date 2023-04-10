@@ -1,40 +1,16 @@
 module.exports = {
   docs: {
-    // 'Tools Shelf': [
-    //   'tool-shelf',
-    //   //   'eightshift-libs',:
-    //   // 'eightshift-frontend-libs',
-    //   // 'requirements',
-    //   // 'versions',
-    //   // 'theme',
-    //   // 'plugin',
-    //   // 'additional-libraries'
-    // ],
     'Engineering Metrics': [
-      'engineering-metrics',
-      //   'eightshift-libs',:
-      // 'eightshift-frontend-libs',
-      // 'requirements',
-      // 'versions',
-      // 'theme',
-      // 'plugin',
-      // 'additional-libraries'
+      'engineering-metrics'
     ],
     'Best Practices': [
-      {
-        type: 'category',
-        label: 'Best Practices',
-        items: [
-          'best-practices/architecture-drawing',
-          'best-practices/ci-cd',
-          'best-practices/code-review',
-          'best-practices/code-style',
-          'best-practices/SOLID',
-          'best-practices/technical-agreements',
-          'best-practices/versioning-strategy',
-        ],
-      },
-      'technology-radar',
+      'best-practices/architecture-drawing',
+      'best-practices/ci-cd',
+      'best-practices/code-review',
+      'best-practices/code-style',
+      'best-practices/SOLID',
+      'best-practices/technical-agreements',
+      'best-practices/versioning-strategy'
     ],
     'Tools Shelf': [
       'tool-shelf/tool-shelf',
