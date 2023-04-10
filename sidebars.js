@@ -1,5 +1,15 @@
 module.exports = {
   docs: {
+    // 'Tools Shelf': [
+    //   'tool-shelf',
+    //   //   'eightshift-libs',:
+    //   // 'eightshift-frontend-libs',
+    //   // 'requirements',
+    //   // 'versions',
+    //   // 'theme',
+    //   // 'plugin',
+    //   // 'additional-libraries'
+    // ],
     'Engineering Metrics': [
       'engineering-metrics',
       //   'eightshift-libs',:
@@ -25,6 +35,70 @@ module.exports = {
         ],
       },
       'technology-radar',
+    ],
+    'Tools Shelf': [
+      'tool-shelf/tool-shelf',
+      {
+        type: 'category',
+        label: 'Tests',
+        items: [
+          'tool-shelf/postman-test',
+          'tool-shelf/playwright-test',
+          'tool-shelf/cypress-test',
+          'tool-shelf/jmeter-test',
+        ],
+      },
+      {
+        type: 'category',
+        label: 'Authentication',
+        items: [
+          'tool-shelf/amazon-cognito',
+          'tool-shelf/key-cloack',
+        ],
+      },
+      {
+        type: 'category',
+        label: 'Message',
+        items: [
+          'tool-shelf/rabbit-mq',
+          'tool-shelf/kafka',
+        ],
+      },
+      {
+        type: 'category',
+        label: 'Infra and Devops',
+        items: [
+          'tool-shelf/prometeus',
+          'tool-shelf/terraform',
+          'tool-shelf/kubernetes',
+          'tool-shelf/ansible',
+          'tool-shelf/microsoft_app_center',
+          'tool-shelf/bitrise',
+          'tool-shelf/fastlane'
+        ],
+      },
+      {
+        type: 'category',
+        label: 'Code analysis',
+        items: [
+          'tool-shelf/sonar-qube',
+        ],
+      },
+      {
+        type: 'category',
+        label: 'Server and Proxy',
+        items: [
+          'tool-shelf/nginx',
+        ],
+      },
+      {
+        type: 'category',
+        label: 'Dev and Notification',
+        items: [
+          'tool-shelf/firebase',
+          'tool-shelf/one-signal',
+        ],
+      },
     ],
     // 'Basics': [
     // 	'basics/basics-intro',
