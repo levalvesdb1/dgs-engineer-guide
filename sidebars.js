@@ -26,6 +26,14 @@ module.exports = {
       },
       {
         type: 'category',
+        label: 'Code Help',
+        items: [
+          'tool-shelf/github-copilot',
+          'tool-shelf/chat-gpt'
+        ],
+      },
+      {
+        type: 'category',
         label: 'Authentication',
         items: [
           'tool-shelf/amazon-cognito',
