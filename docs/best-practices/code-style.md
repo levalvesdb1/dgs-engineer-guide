@@ -3,7 +3,7 @@ id: code-style
 title: Code Style
 ---
 
-A code standard is a consistent, yet flexible, set of “best practices” designed to improve quality and readability while making code changes and maintenance easier. It:
+A code standard or style is a consistent, yet flexible, set of “best practices” designed to improve quality and readability while making code changes and maintenance easier. It:
 
 - encompasses all aspects of code construction
 - is designed to improve adaptation & maintenance
