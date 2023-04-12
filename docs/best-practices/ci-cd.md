@@ -11,6 +11,10 @@ Continuous delivery usually means a developer’s changes to an application are 
 
 ![CI/CD Flow](/img/docs/best-practices/ci-cd-flow-desktop.png)
 
+This is the ideal flow we'll have in an automated process:
+
+![CI/CD](/img/docs/best-practices/CI-CD.png)
+
 Altough CI/CD concepts are not hard to understand, there are some best practices that will help you get more benefits out of it:
 
 1. To reap the benefits of continuous integration, it's essential that everyone share their changes with the rest of your team. Always keeping your source code up to date and receiving updates made by the team on the source branch;
