@@ -17,7 +17,7 @@ function Foot() {
 				<div className={`${component}__columns`}>
 					<div className={`${component}__column ${component}__column--left`}>
 						Made with &hearts; by &nbsp;
-						<a href="https://engineering.db1.com.br/" target="_blank" rel="noopener noreferrer" className={`${component}__link`}>
+						<a href="https://eightshift.com/" target="_blank" rel="noopener noreferrer" className={`${component}__link`}>
 							{'Eightshift'}
 						</a>
 						{' team | '}

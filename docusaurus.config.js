@@ -1,12 +1,12 @@
 module.exports = {
-  title: 'DB1 Engineering Guide',
+  title: 'DB1 Global Software',
   tagline:
-    'Um guia para os engenheiros DGS utilizarem no dia a dia. Ferramentas, documentações, dicas e outras coisas bacanudas que estamos preparando para vocês!!',
+    'A guide made by and for software engineers at db1 global software to share and beyond that, express our strong opinion about how software should be made',
   url: 'https://engineering.db1.com.br',
   baseUrl: '/',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.png',
   organizationName: 'infinum',
-  projectName: 'DB1 Engineering Guide',
+  projectName: 'Engineering Guide',
   staticDirectories: ['static'],
   scripts: [
     {
@@ -25,7 +25,7 @@ module.exports = {
         {
           to: 'docs/engineering-metrics',
           activeBasePath: 'pages',
-          label: 'Developer Guide',
+          label: 'The Guide',
           position: 'right',
         },
         {
