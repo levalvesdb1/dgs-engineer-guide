@@ -3,7 +3,7 @@ id: architecture-drawing
 title: Architecture Drawing
 ---
 
-Solution architecture can be expressed through many tools and methods. The [Unified Modeling Language (UML)]((https://en.wikipedia.org/wiki/Unified_Modeling_Language)) is a general-purpose, developmental modeling language in the field of software engineering that is intended to provide a standard way to visualize the design of a system.
+Solution architecture can be expressed through many tools and methods. The [Unified Modeling Language (UML)](https://en.wikipedia.org/wiki/Unified_Modeling_Language) is a general-purpose, developmental modeling language in the field of software engineering that is intended to provide a standard way to visualize the design of a system.
 
 Technology solutions can become very complex and, as a result, their visual representations. There are many framweworks and tools that provide us great documentation structure, enabling governance and solution management that goes beyond visual representations. Keeping it to a practical level, we encourage you to always have an architecture drawing.
 
@@ -20,5 +20,6 @@ To make this even better, there's a way to turn code into a c4model diagram thro
 Last but not least, DB1 has created an [e-book](https://carreira.db1group.com/desenho-de-arquitetura-de-software) about c4model that might help you for a quick start.
 
 Credits
+
 - [UML-Wikipedia](https://en.wikipedia.org/wiki/Unified_Modeling_Language)
 - [C4model](https://c4model.com)
