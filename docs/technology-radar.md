@@ -16,4 +16,4 @@ The guide will provide us 4 categories:
 
 We’ve released the first-draft of our technology radar and will update it on an ongoing basis.
 
-You can find our Technology Radar here.
+You can find our Technology Radar [here](https://techradar.db1.com.br/index.html).
