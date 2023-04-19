@@ -2,9 +2,9 @@ module.exports = {
   title: 'DB1 Global Software',
   tagline:
     'A guide made by and for software engineers at db1 global software to share and beyond that, express our strong opinion about how software should be made',
-  url: 'https://engineering.db1.com.br',
+  url: 'https://engineerguide.db1.com.br',
   baseUrl: '/',
-  favicon: 'img/favicon.png',
+  favicon: 'img/favicon.ico',
   organizationName: 'infinum',
   projectName: 'Engineering Guide',
   staticDirectories: ['static'],
