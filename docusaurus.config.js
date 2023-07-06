@@ -34,6 +34,11 @@ module.exports = {
           label: 'Technology Radar',
           position: 'right',
         },
+        {
+          label: 'Languages',
+          type: 'localeDropdown',
+          position: 'right',
+        },
       ],
     },
     prism: {
@@ -82,4 +87,19 @@ module.exports = {
     ],
     image: 'img-why-boilerplate@2x.png',
   },
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'pt', 'es'],
+    localeConfigs: {
+      en: {
+        label: 'English',
+      },
+      pt: {
+        label: 'Português',
+      },
+      es: {
+        label: 'Español',
+      },
+    },
+  }
 };
