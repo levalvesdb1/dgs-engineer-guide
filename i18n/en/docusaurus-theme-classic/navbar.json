@@ -10,9 +10,5 @@
   "item.label.Technology Radar": {
     "message": "Technology Radar",
     "description": "Navbar item with label Technology Radar"
-  },
-  "item.label.Languages": {
-    "message": "Languages",
-    "description": "Navbar item with label Languages"
   }
 }
