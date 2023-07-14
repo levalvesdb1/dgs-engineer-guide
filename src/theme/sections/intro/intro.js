@@ -3,10 +3,9 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import Container from "./../../components/container/container";
 import Button from "./../../components/button/button";
+import {translate} from '@docusaurus/Translate';
 
 export default function Intro() {
-  const context = useDocusaurusContext();
-  const { siteConfig = {} } = context;
 
   const component = "shift-intro";
 
@@ -16,7 +15,7 @@ export default function Intro() {
         <div
           className={`${component}__title`}
           dangerouslySetInnerHTML={{
-            __html: "Engineering<br/>Guide",
+            __html: translate({message: "intro.title"}),
           }}
         ></div>
         {/* <div className={`${component}__image`}>
@@ -29,10 +28,10 @@ export default function Intro() {
             src={useBaseUrl("img/img-boilerplate-intro@2x.png")}
           />
         </div> */}
-        <div className={`${component}__content`}>{siteConfig.tagline}</div>
+        <div className={`${component}__content`}>{translate({message: "intro.description"})}</div>
         <Button
           componentClass={component}
-          label={"Start"}
+          label={translate({message: "intro.button-start"})}
           href={useBaseUrl("/docs/engineering-metrics")}
         />
       </Container>

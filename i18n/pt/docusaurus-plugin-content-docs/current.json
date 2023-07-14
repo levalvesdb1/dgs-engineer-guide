@@ -1,0 +1,18 @@
+{
+  "version.label": {
+    "message": "Próximo",
+    "description": "The label for version current"
+  },
+  "sidebar.docs.category.Engineering Metrics": {
+    "message": "Métricas de engenharia",
+    "description": "The label for category Engineering Metrics in sidebar docs"
+  },
+  "sidebar.docs.category.Best Practices": {
+    "message": "Práticas recomendadas",
+    "description": "The label for category Best Practices in sidebar docs"
+  },
+  "sidebar.docs.category.Technology Radar": {
+    "message": "Radar de tecnologia",
+    "description": "The label for category Technology Radar in sidebar docs"
+  }
+}

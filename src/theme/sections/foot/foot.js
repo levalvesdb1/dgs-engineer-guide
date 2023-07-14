@@ -1,6 +1,7 @@
 import React from 'react';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import Container from './../../components/container/container';
+import {translate} from '@docusaurus/Translate';
 
 function Foot() {
 
@@ -15,23 +16,18 @@ function Foot() {
 				bgColor={'light'}
 			>
 				<div className={`${component}__columns`}>
-					<div className={`${component}__column ${component}__column--left`}>
-						Made with &hearts; by &nbsp;
-						<a href="https://eightshift.com/" target="_blank" rel="noopener noreferrer" className={`${component}__link`}>
-							{'Eightshift'}
-						</a>
-						{' team | '}
-						<a href={useBaseUrl('/sitemap.xml')} target="_blank" rel="noopener noreferrer" className={`${component}__link`}>
-							{'Sitemap'}
-						</a>
+					<div className={`${component}__column ${component}__column--left`}
+						dangerouslySetInnerHTML={{
+							__html: translate({message: "foot.credits"}),
+						}}>
 					</div>
 					<div className={`${component}__column ${component}__column--right`}>
 						<span className={`${component}__copy`}>
-							{'© Eightshift. All rights reserved.'}
+							{translate({message: "foot.reserved"})}
 						</span>
 						<span className={`${component}__logo-wrap`}>
-							{'Part of '}
-							<a href="https://infinum.com/" target="_blank" rel="noopener noreferrer" rel="nofollow" className={`${component}__logo`}>
+						{translate({message: "foot.part-of"})}
+							<a href="https://infinum.com/" target="_blank" rel="noopener noreferrer" className={`${component}__logo`}>
 								<img src={useBaseUrl('img/ic-infinum-logo.svg')} />
 							</a>
 						</span>
