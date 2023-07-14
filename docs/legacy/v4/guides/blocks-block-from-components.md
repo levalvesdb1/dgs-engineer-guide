@@ -82,7 +82,6 @@ Next, we want to set up the editor and options component for this block. So in t
 ```js
 import React from 'react'; // eslint-disable-line no-unused-vars
 import { RichText } from '@wordpress/editor';
-import { __ } from '@wordpress/i18n';
 import { ImageEditor } from '../../../components/image/components/image-editor';
 
 export const CardEditor = (props) => {
@@ -136,7 +135,6 @@ Our card editor component will have an `<ImageEditor />` component and two `<Ric
 
 ```js
 import React from 'react'; // eslint-disable-line no-unused-vars
-import { __ } from '@wordpress/i18n';
 import { PanelBody } from '@wordpress/components';
 import { ImageOptions } from '../../../components/image/components/image-options';
 
