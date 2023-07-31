@@ -9,10 +9,10 @@ The radar is an [open-source project](https://github.com/thoughtworks/build-your
 
 The guide will provide us 4 categories:
 
-- Techniques
-- Tools
-- Platforms
 - Languages and Frameworks
+- Methods & Patterns
+- Platforms & Operations
+- Tools
 
 We’ve released the first-draft of our technology radar and will update it on an ongoing basis.
 
