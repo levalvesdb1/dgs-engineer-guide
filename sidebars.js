@@ -14,6 +14,9 @@ module.exports = {
       'best-practices/technical-agreements',
       'best-practices/versioning-strategy'
     ],
+    'Career': [
+      'career/seniorities'
+    ],
     'Technology Radar': [
       'technology-radar'
     ]
