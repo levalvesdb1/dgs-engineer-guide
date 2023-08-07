@@ -3,9 +3,9 @@
     "message": "Próximo",
     "description": "The label for version current"
   },
-  "sidebar.docs.category.Engineering Metrics": {
-    "message": "Métricas de engenharia",
-    "description": "The label for category Engineering Metrics in sidebar docs"
+  "sidebar.docs.category.Software Development": {
+    "message": "Desenvolvimento de Software",
+    "description": "The label for category Desenvolvimento de Software in sidebar docs"
   },
   "sidebar.docs.category.Best Practices": {
     "message": "Práticas recomendadas",
