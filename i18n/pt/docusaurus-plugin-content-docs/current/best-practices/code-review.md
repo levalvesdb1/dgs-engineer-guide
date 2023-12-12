@@ -10,7 +10,7 @@ Quando começar a revisar um código, lembre-se de que você sempre estará proc
 - **funcionalidade** (essa mudança é o que o desenvolvedor pretendia)
 - **complexidade** (esse código é mais complexo do que deveria ser)
 - **nomeação** (a nomenclatura é boa?)
-- **princípios de engenharia** (sólido, sólido, seco), 
+- **princípios de engenharia** (solid, kiss, dry),
 - **testes** (os diferentes tipos de testes são usados adequadamente, cobertura de código), 
 - **estilo** (ele segue as diretrizes de estilo)
 - **documentação**

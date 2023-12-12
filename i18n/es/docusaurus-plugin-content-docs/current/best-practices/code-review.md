@@ -10,7 +10,7 @@ Cuando empiece a revisar un código, recuerde que siempre estará buscando:
 - **funcionalidad** (¿es este cambio lo que pretendía el desarrollador?)
 - Complejidad** (¿es el código más complejo de lo que debería?)
 - **nomenclatura** (¿es buena la nomenclatura?)
-- **principios de ingeniería** (sólido, beso, seco), 
+- **principios de ingeniería** (solid, kiss, dry), 
 - **pruebas** (¿se utilizan adecuadamente los distintos tipos de pruebas, cobertura del código?), 
 - **estilo** (¿sigue las normas de estilo?)
 - **documentación**
