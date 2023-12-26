@@ -44,9 +44,9 @@ Postmortems are more than just a technical practice; they are a testament to the
 - **Status:** [Current status of the postmortem, such as "Complete" or "In Progress"]
 - **Summary:** [A brief overview of the problem that occurred and its impact]
 - **Impact:**
-    • Duration: [Duration of the problem, in minutes, hours, etc.]
-    • Financial Impact: [Description of the financial impact, if any]
-    • Other Impacts: [Other relevant impacts, such as data loss, reputation impact, etc.]
+    - Duration: [Duration of the problem, in minutes, hours, etc.]
+    - Financial Impact: [Description of the financial impact, if any]
+    - Other Impacts: [Other relevant impacts, such as data loss, reputation impact, etc.]
 - **Root Causes:** [Description of the root causes that led to the problem]
 - **Trigger:** [Description of the event or action that triggered the problem]
 - **Resolution:** [Description of the actions taken to resolve the problem]
